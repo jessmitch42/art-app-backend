@@ -6,7 +6,7 @@ class CreateArtists < ActiveRecord::Migration[5.1]
       t.integer :birth_year
       t.integer :death_year
       t.string :nationality
-      t.string :bio
+      t.text :bio
       t.string :sources
     end
   end
