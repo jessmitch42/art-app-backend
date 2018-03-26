@@ -98,52 +98,53 @@ Artwork.create(artist_id: artist.id, name:"Castle at night", year_completed:2017
 # Aleah Chapin
 artist = Artist.create(first_name:"Aleah", last_name:"Chapin", birth_year:1986,  nationality:"American", bio:`	Aleah Chapin is an American painter who won the BP Portrait Award in 2012. She studied at the Cornish College of the Arts, before studying for her Masters at the New York Academy of Art (NYAA). She was immediately made a postgraduate fellow of the Academy. Chapin has painted a series of nude portraits of women from her home area, whom she describes as "aunties". She paints in oils, using photographs of the subjects as a source. She describes her award winning painting, Auntie, as "a map of her journey through life" with a "personification of strength through an unguarded and accepting presence". Chapin lists her influences as contemporary painters Andrew Wyeth and Jenny Saville.`, sources:"https://www.artsy.net/artist/aleah-chapin, https://en.wikipedia.org/wiki/Aleah_Chapin")
 
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
+Artwork.create(artist_id: artist.id, name:"This and that", year_completed:2012, materials:"Oil on linen", img:"chapin_this_2012")
+Artwork.create(artist_id: artist.id, name:"Under the Curve of Time", year_completed:2017, materials:"Oil on canvas", img:"chapin_under_2017")
+Artwork.create(artist_id: artist.id, name:"Myosotis", year_completed:2017, materials:"Oil on panel", img:"chapin_myosotis_2017")
+
 
 # Helen Frankenthaler
 artist = Artist.create(first_name:"Helen", last_name:"Frankenthaler", birth_year:1928, death_year:2011, nationality:"American", sources:"https://www.artsy.net/artist/helen-frankenthaler, https://en.wikipedia.org/wiki/Helen_Frankenthaler")
 artist.bio = "Helen Frankenthaler was an American abstract expressionist painter. She was a major contributor to the history of postwar American painting. Having exhibited her work for over six decades (early 1950s until 2011), she spanned several generations of abstract painters while continuing to produce vital and ever-changing new work. Frankenthaler began exhibiting her large-scale abstract expressionist paintings in contemporary museums and galleries in the early 1950s. She was included in the 1964 Post-Painterly Abstraction exhibition curated by Clement Greenberg that introduced a newer generation of abstract painting that came to be known as Color Field. Born in Manhattan, she was influenced by Greenberg, Hans Hofmann, and Jackson Pollock's paintings. Her work has been the subject of several retrospective exhibitions, including a 1989 retrospective at the Museum of Modern Art in New York City, and been exhibited worldwide since the 1950s. In 2001, she was awarded the National Medal of Arts."
 
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
+Artwork.create(artist_id: artist.id, name:"Paris Review", year_completed:1965, materials:"Stone Lithograph", img:"frankenthaler_paris_1965")
+Artwork.create(artist_id: artist.id, name:"The Red Sea", year_completed:1959, materials:"Oil and charcoal on sized, primed canvas with painted wood frame", img:"frankenthaler_red_1959")
+Artwork.create(artist_id: artist.id, name:"Air Frame", year_completed:1965, materials:"Original screenprint in colors on Arches watercolor paper", img:"frankenthaler_airframe_1965")
 
 # Alice Neel
 artist = Artist.create(first_name:"Alice", last_name:"Neel", birth_year:1900, death_year:1984, nationality:"American", bio:`American	Alice Neel was an American visual artist, who was known for her portraits depicting friends, family, lovers, poets, artists and strangers. Her paintings have an expressionistic use of line and color, psychological acumen, and emotional intensity. Neel was called "one of the greatest portrait artists of the 20th century" by Barry Walker, curator of modern and contemporary art at the Museum of Fine Arts, Houston, which organized a retrospective of her work in 2010.`, sources:"https://www.artsy.net/artist/alice-neel, https://en.wikipedia.org/wiki/Alice_Neel")
 
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
+Artwork.create(artist_id: artist.id, name:"Ron Kajiwara", year_completed:1971, materials:"Oil on canvas", img:"neel_ron_1971")
+Artwork.create(artist_id: artist.id, name:"Blue Vase", year_completed:1981, materials:"Silkscreen", img:"neel_vase_1961")
+Artwork.create(artist_id: artist.id, name:"Elsie Rubin	", year_completed:1958, materials:"Oil on canvas board", img:"neel_elsie_1958")
 
 # Yayoi Kusama
 artist = Artist.create(first_name:"Yayoi", last_name:"Kusama", birth_year:1929,  nationality:"Japanese", bio:`Avant-garde Japanese artist Yayoi Kusama was an influential figure in the postwar New York art scene, staging provocative happenings and exhibiting works such as her “Infinity Nets”, hallucinatory paintings of loops and dots (and physical representations of the idea of infinity). Narcissus Garden, an installation of hundreds of mirrored balls, earned Kusama notoriety at the 1966 Venice Biennale, where she attempted to sell the individual spheres to passersby. Kusama counted Donald Judd and Eva Hesse among her close friends, and is often considered an influence on Andy Warhol and a precursor to Pop art. Since her return to Japan in the 1970s, Kusama's work has continued to appeal to the imagination and the senses, including dizzying walk-in installations, public sculptures, and the "Dots Obsessions" paintings.`, sources:"https://www.artsy.net/artist/yayoi-kusama")
 
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
+Artwork.create(artist_id: artist.id, name:"Pumpkin", year_completed:1991, materials:"Acrylic on canvas", img:"kusama_pumpkin_1991")
+Artwork.create(artist_id: artist.id, name:"Infinity Dots", year_completed:1992, materials:"Acrylic on canvas	", img:"kusama_infinity_1992")
+Artwork.create(artist_id: artist.id, name:"The Woman", year_completed:1953, materials:"Pastel, aqueous tempera, and acrylic paint", img:"kusama_woman_1953")
 
 # Heather Day
 artist = Artist.create(first_name:"Heather", last_name:"Day", nationality:"American", bio:"Heather Day is an American artist in San Francisco, California. Day considers her work a form of visual storytelling, where each painting acts as a page to a larger story about “risk and comfort.” Citing the lines and textures of nature, travel, music and the depth of the color blue as her main sources of inspiration, Day works primarily with paint and non-traditional materials on canvas. She also works in both interior and exterior murals and experimental sculpture. Aside from working with traditional painting materials, Day used her process to create the worlds first augmented reality art for Facebook Camera in collaboration with Facebook's Applied Machine Learning group.", sources:"https://www.artsy.net/artist/heather-day, https://en.wikipedia.org/wiki/Heather_Day")
 
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
+Artwork.create(artist_id: artist.id, name:"Here's the thing", year_completed:2017, materials:"Acrylic, spray paint on stretched canvas", img:"day_heres_2017")
+Artwork.create(artist_id: artist.id, name:"Move #4", year_completed:2016, materials:"Acrylic and graphite on paper", img:"day_move_2016")
+Artwork.create(artist_id: artist.id, name:"What are you doing this weekend?", year_completed:2017, materials:"Acrylic, soft-pastel, spray paint on stretched canvas", img:"day_weekend_2017")
 
 # Lee Krasner
 artist = Artist.create(first_name:"Lee", last_name:"Krasner", birth_year:1908, death_year:1984, nationality:"American", sources:"https://www.artsy.net/artist/lee-krasner, https://en.wikipedia.org/wiki/Lee_Krasner")
 
 artist.bio = `Lenore "Lee" Krassner was an American abstract expressionist painter in the second half of the 20th century. She is one of the few female artists to have had a retrospective show at the Museum of Modern Art. Krasner is identified as an abstract expressionist due to her abstract, gestural, and expressive works. She worked in painting, collage painting, charcoal drawing, and occasionally mosaics. She would often cut apart her own drawings and paintings to create her collage paintings. She also commonly revised or completely destroyed an entire series of works due to her critical nature. As a result, her surviving body of work is relatively small. Throughout her career, she refused to adopt a singular, recognizable style and instead embraced change through varying the mood, subject matter, texture, materials, and compositions of her work often. Krasner was often reluctant to discuss the iconography of her work and instead emphasized the importance of her biography since she claims her art is formed through her individual personality and her emotional state.`
 
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
+Artwork.create(artist_id: artist.id, name:"The Eye is the First Circle", year_completed:1960, materials:"Oil on canvas	", img:"krasner_eye_1960")
+Artwork.create(artist_id: artist.id, name:"Untitled (Gouache No. 2)", year_completed:1941, materials:"Gouache and pencil on paper", img:"krasner_untitled_1941")
+Artwork.create(artist_id: artist.id, name:"Untitled", year_completed:1942, materials:"Oil paint on linen", img:"krasner_untitled_1942")
 
 # Chantel Joffe
 artist = Artist.create(first_name:"Chantal", last_name:"Joffe", birth_year:1969, nationality:"British",  sources:"https://www.artsy.net/artist/chantal-joffe, https://en.wikipedia.org/wiki/Chantal_Joffe")
 artist.bio = `Chantal Joffe is an English artist based in London. Her often large-scale paintings generally depict women and children. In 2006, she received the prestigious Charles Wollaston Award from the Royal Academy. Joffe primarily paints expressive portraits of women and children, often in very large scale, sometimes 10 feet (3 m) tall. In a 2009 interview with Stella McCartney, Joffe said, "I really love painting women. Their bodies, their clothes – it all interests me." Source images for her personality-filled oil paintings include family photos, advertising, fashion magazines, and pornography. Working roughly from her photographic source material, Joffe introduces distortions to her depictions. In the McCartney interview, Joffe mentioned the photography of Diane Arbus as an inspiration for her art: "I find photography massively influential. Specifically, Diane Arbus, who I've been obsessed with my whole life. Her work has everything about the portrait of a human that you can ever want."`
 
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
-Artwork.create(artist_id: artist.id, name:, year_completed:, materials:, img:)
+Artwork.create(artist_id: artist.id, name:"Brunette in a Trench Coat", year_completed:2016, materials:"Oil on board", img:"joffe_brunette_2016")
+Artwork.create(artist_id: artist.id, name:"Untitled", year_completed:2001, materials:"Oil on board", img:"joffe_untitled_2001")
+Artwork.create(artist_id: artist.id, name:"Purple Dress", year_completed:2017, materials:"Oil on canvas ", img:"joffe_purple_2017")
