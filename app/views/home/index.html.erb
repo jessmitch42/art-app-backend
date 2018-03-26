@@ -1,0 +1,11 @@
+<h1>WELCOME</h1>
+
+<% @artists.each do |a|  %>
+  <p><%= a.first_name %> <%= a.last_name %></p>
+  <div>
+    <% a.artworks.each do |r| %>
+    <%= r.name %>
+    <% end %>
+  </div>
+
+<% end %>
