@@ -5,4 +5,8 @@ class Artist < ApplicationRecord
     `#{self.first_name} #{self.last_name}`
   end
 
+  def img
+    self.img = self.artworks.first.img
+  end
+
 end
